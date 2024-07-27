@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #333;
+  box-sizing: border-box;
+}
+/* Asegurar que el contenedor principal ocupe todo el espacio disponible */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* Ajustes opcionales para centrar el contenido en el body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+

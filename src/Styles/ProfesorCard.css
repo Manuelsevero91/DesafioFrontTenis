@@ -1,0 +1,25 @@
+.profesor-card {
+  display: flex;
+  border: 1px solid #E71414;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+.btn button:hover {
+  background-color: #E60000;
+}
+
+.btn {
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  text-shadow: 5px 5px 5px rgb(5, 5, 8);
+  width: 10rem;
+  text-align: center;
+  background-color: rgb(109, 22, 209);
+  border-radius: 10px;
+  padding-top: .5rem;
+}
